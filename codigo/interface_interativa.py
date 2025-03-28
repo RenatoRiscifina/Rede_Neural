@@ -4,7 +4,6 @@ import cv2
 from streamlit_drawable_canvas import st_canvas
 from PIL import Image
 
-
 # Importa a classe NeuralNetwork do nosso módulo da rede neural
 from rede_neural import NeuralNetwork
 
@@ -71,4 +70,3 @@ if canvas_result.image_data is not None:
     # A rede neural faz a previsão com base no desenho, assim como você provaria o prato para saber se está bom.
     prediction = nn.predict(X_input)
     st.write(f"A rede neural prevê o dígito: **{int(prediction[0])}**")
-    

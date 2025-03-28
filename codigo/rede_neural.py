@@ -120,4 +120,3 @@ class NeuralNetwork:
         self.weights2 = data['weights2']
         self.bias2 = data['bias2']
         print(f"Modelo carregado de '{filepath}'")
-        
