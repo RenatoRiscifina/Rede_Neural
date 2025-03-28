@@ -4,6 +4,7 @@ import cv2
 from streamlit_drawable_canvas import st_canvas
 from PIL import Image
 
+
 # Importa a classe NeuralNetwork do nosso módulo da rede neural
 from rede_neural import NeuralNetwork
 
